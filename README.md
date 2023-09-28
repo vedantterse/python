@@ -41,10 +41,15 @@ Go to the original repository on GitHub and click the "New Pull Request" button.
 Write a clear and concise description of your changes in the Pull Request description box. Be sure to mention what issue you're addressing if applicable.
 
 
-- [My replit page](https://replit.com/@VedantTerse)
 
 Step 9: Submit Your Pull Request
 Click the "Create Pull Request" button to submit your changes for review.
 
 Review and Merge
 I will review your Pull Requests and, if they are okay, merge them into the main project. Please be patient, as it may take some time for your PR to be reviewed.
+
+
+
+- [My replit page](https://replit.com/@VedantTerse) checkout this for more projects.
+  
+  ( you can edit them and add it for your 1st PR or you can contribute/solve the issue in the existing ones)

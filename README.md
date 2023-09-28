@@ -1,7 +1,8 @@
-
+**OpenSoucre Begineer guide**/
 **Hacktoberfest Beginner's Guide**
 
-Welcome to Hacktoberfest! This is a beginner-friendly guide to help you get started with your first Pull Request (PR) for Hacktoberfest. We're excited to have you join the open source community and contribute to this project.
+Welcome to Hacktoberfest! This is a beginner-friendly guide to help you get started with your first Pull Request (PR) for Hacktoberfest/open source . We're excited to have you join the open source community and contribute to this project.
+``` This Repo is focused on some beginner level python projects , you can contribute to the projects or add yours to this repo . the project should not be too basic or related to the already added ones , if you have an unique project which is beginner level you can add it to the PR ``` . 
 
 Getting Started
 
@@ -11,18 +12,24 @@ Click the "Fork" button in the upper right-hand corner of this repository to cre
 ## Step 2: Clone Your Fork
 Clone the repository to your local machine using the following command (replace <your-username> with your GitHub username):
 
-``` git clone https://github.com/<your-username>/Hacktoberfest.git ```
+```bash 
+git clone https://github.com/<your-username>/Hacktoberfest.git
+```
 ### Step 3: Create a Branch
 Create a new branch to work on your changes:
 
-``` git checkout -b my-branch``` 
+```bash
+git checkout -b my-branch
+``` 
 ### Step 4: Make Changes
 Make the necessary changes or additions to the project. You can add new features, fix bugs, update documentation, or anything else you think is valuable.
 
 ### Step 5: Commit Your Changes
 Commit your changes with a meaningful commit message:
 
-``` git commit -m "Add a brief description of your changes" ```
+```bash
+git commit -m "Add a brief description of your changes"
+```
 ### Step 6: Push Your Changes
 Push your changes to your fork on GitHub:
 

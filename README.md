@@ -10,7 +10,7 @@ Getting Started
 Click the "Fork" button in the upper right-hand corner of this repository to create your own copy.
 
 ## Step 2: Clone Your Fork
-Clone the repository to your local machine using the following command (replace <your-username> with your GitHub username):
+Clone the repository to your local machine using the following command (replace < your-username > with your GitHub username):
 
 ```bash 
 git clone https://github.com/<your-username>/Hacktoberfest.git

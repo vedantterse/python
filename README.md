@@ -54,6 +54,60 @@ I will review your Pull Requests and, if they are okay, merge them into the main
 
 
 
+
+# Making your own Repository 
+
+1.**click on New Repository** 
+    ![image](https://github.com/vedantterse/python/assets/69134828/439301f5-8729-4333-a5d8-4fbabc0a369c)
+
+
+2.**Enter the name and description**
+     ![image](https://github.com/vedantterse/python/assets/69134828/fcc3cc21-5e8f-40c2-93bc-211c119aa538)
+
+3.**scroll down and click on Create Repository**
+    ![image](https://github.com/vedantterse/python/assets/69134828/32f9df25-2ed0-4a64-8cf4-224e4a5bb86a)
+
+4.**Now open an terminal or git bash GUI in the folder which you want to upload**
+  
+  **use following commande**
+  
+ ```
+ echo "# example" >> README.md
+ ```
+ 
+ ```
+ git init
+ ```
+  
+ ```
+ git add README.md
+ ```
+ 
+ ```
+ git add .
+ ```
+"In the list commands on github git.add command is missing dont forget to add that"
+ 
+ ``` 
+ git commit -m "first commit"
+ ```
+ 
+ ```
+   git branch -M main
+ ```
+ 
+ ```
+ git remote add origin https://github.com/your-username/example.git
+ ```
+ 
+ ```
+ git push -u origin main
+ ```
+
+## checkout other git commands in the pdf 
+
+
+
 - [My replit page](https://replit.com/@VedantTerse) checkout this for more projects.
   
   ( you can edit them and add it for your 1st PR or you can contribute/solve the issue in the existing ones)

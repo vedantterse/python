@@ -37,7 +37,9 @@ git commit -m "Add a brief description of your changes"
 ### Step 6: Push Your Changes
 Push your changes to your fork on GitHub:
 
+```bash
 git push origin my-branch
+```
 ### Step 7: Create a Pull Request
 Go to the original repository on GitHub and click the "New Pull Request" button. Ensure that you're comparing your branch to the main branch of the original repository.
 

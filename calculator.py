@@ -16,7 +16,8 @@ def request_input():
     while True:
         numbers = input("Enter your numbers (separated by spaces): ")
         if numbers.lower() == "exit":
-            return "exit"
+            exit_p = True
+            break
         try:
             return tuple(map(int, numbers.split()))
             
@@ -37,7 +38,7 @@ while True:
         break
 
     if w == "1":
-        print("TABLE GENERATOR")
+        print("\nTABLE GENERATOR")
         while True:
             try:
                 x = input("Enter the number for the required table: ")
@@ -51,54 +52,34 @@ while True:
                 break
 
     elif w == "2":
-        print("ADDITION")
-        print(f"The sum of your inputted numbers is {sum(request_input())}.")
+        print("\nADDITION")
+        print(f"The sum of your inputted numbers is {sum(request_input())}.\n")
 
     elif w == "3":
-        print("SUBTRACTION")
-        while True:
-            try:
-                numbers = input("Enter the numbers (separated by spaces): ")
-                if numbers.lower() == "exit":
-                    break
-
-                number_list = numbers.split()
-
-                subtraction = int(number_list[0])
-                for num_str in number_list[1:]:
-                    num = int(num_str)
-                    subtraction -= num
-
-                print("The subtraction result is:", subtraction)
-                continue
-            except ValueError:
-                print("Invalid input. Please enter numbers only.")
-                continue
+        print("\nSUBTRACTION")
+        number_list = request_input()
+        result = number_list[0]
+        for num in number_list[1:]:
+            result -= num
+        print(f"The subtraction of your inputted numbers is {result}.\n")
 
     elif w == "4":
-        print("MULTIPLICATION")
+        print("\nMULTIPLICATION")
         while True:
-            numbers = input("Enter the numbers (separated by spaces): ")
-            if numbers.lower() == "exit":
-                break
-            number_list = numbers.split()
+            number_list = request_input()
 
             product = 1
-            for num_str in number_list:
-                num = int(num_str)
+            for num in number_list:
                 product *= num
 
             print("The product is:", product)
-            continue
+
 
     elif w == "5":
-        print("DIVISION")
+        print("\nDIVISION")
         while True:
             try:
-                numbers = input("Enter the numbers (separated by spaces): ")
-                if numbers.lower() == "exit":
-                    break
-                number_list = numbers.split()
+                number_list = request_input()
 
                 dividend = int(number_list[0])
                 for num_str in number_list[1:]:

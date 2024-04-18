@@ -1,8 +1,10 @@
-**OpenSoucre Begineer guide**/
-**Hacktoberfest Beginner's Guide**
+**OpenSoucre Begineer guide**
+
 
 Welcome to Hacktoberfest! This is a beginner-friendly guide to help you get started with your first Pull Request (PR) for Hacktoberfest/open source . We're excited to have you join the open source community and contribute to this project.
 ``` This Repo is focused on some beginner level python projects , you can contribute to the projects or add yours to this repo . the project should not be too basic or related to the already added ones , if you have an unique project which is beginner level you can add it to the PR ``` . 
+
+## Please feel free to add your own unique/begginer friendly prjoects to the Repo. will surely consider it !! 
 
 Getting Started
 

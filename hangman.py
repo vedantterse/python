@@ -29,7 +29,7 @@ if __name__ == '__main__':
             chances -= 1
 
             try:
-                guess = str(input("Enter a letter to guess: "))
+                guess = str(input("Enter a letter to guess: ").lower())
             except:
                 print("Enter only a letter!")
                 continue

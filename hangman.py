@@ -19,14 +19,15 @@ if __name__ == '__main__':
     playing = True
 
     letter_guessed = ''
-    chances = len(word) + 2
+    remaining_chances = len(word) + 2
     correct = 0
     flag = 0
+    
 
     try:
-        while (chances != 0) and (flag == 0):
+        while (remaining_chances != 0) and (flag == 0):
             print()
-            chances -= 1
+         
 
             try:
                 guess = str(input("Enter a letter to guess: ").lower())
@@ -44,6 +45,10 @@ if __name__ == '__main__':
             elif guess in letter_guessed:
                 print("you have already guessed that letter")
                 continue
+            
+            # Adding a mechanism to decrement and display the number of chances left after validation
+            remaining_chances -= 1
+            print(f"Remaining Chances: {remaining_chances}")
 
             #if letter is guessed correctly
             if guess in word:
@@ -69,7 +74,7 @@ if __name__ == '__main__':
                             print('_', end='')
 
             #Losing Condition
-            if chances <= 0 and Counter(letter_guessed) != Counter(word):
+            if remaining_chances == 0 and Counter(letter_guessed) != Counter(word):
                     print()
                     print("You lost!, Try again.")
                     print(f"The word was {format(word)}")
